@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+ text-align: center;
+ font-size: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin: 80px auto ;
+    flex-direction: column;
+    width: 30%;
+}
+form input{
+    text-align: center;
+    border: none;
+    outline: transparent;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+form button{
+    background-color: rgb(51, 157, 51);
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.resultaConsulta{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 24px;
+}
